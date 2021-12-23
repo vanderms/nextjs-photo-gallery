@@ -23,7 +23,7 @@ function Home() {
         </div>
         <div className={styles.bgImageContainer}>
           <div className={styles.bgImage}>
-            <img src='/cover.jpg' width={5472 / 10} height={3648 / 10}/>
+            <img src='./cover.jpg' width={5472 / 10} height={3648 / 10}/>
           </div>        
         </div>
       </section>
