@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Navbar from '../components/navbar/navbar'
 import Footer from '../components/footer/footer'
@@ -24,7 +23,7 @@ function Home() {
         </div>
         <div className={styles.bgImageContainer}>
           <div className={styles.bgImage}>
-            <Image src='/cover.jpg' width={5472 / 10} height={3648 / 10}/>
+            <img src='/cover.jpg' width={5472 / 10} height={3648 / 10}/>
           </div>        
         </div>
       </section>
