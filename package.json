@@ -4,8 +4,10 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && next export",
-    "start": "next start"
+    "build": "next build && next export && touch ./out/.nojekyll",
+    "start": "next start",
+    
+    
   },
   "dependencies": {
     "axios": "^0.24.0",
