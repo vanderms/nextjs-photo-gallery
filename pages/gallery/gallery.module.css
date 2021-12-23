@@ -1,0 +1,11 @@
+
+.container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 320px);
+  justify-content: center;
+  gap: 40px;
+  padding-top: 40px;
+  padding-bottom: 120px;
+
+}
+
