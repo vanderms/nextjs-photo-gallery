@@ -3,6 +3,7 @@ import styles from '../styles/Home.module.css'
 import Navbar from '../components/navbar/navbar'
 import Footer from '../components/footer/footer'
 import Link from 'next/link'
+import path from '../lib/path'
 
 
 function Home() {
@@ -23,7 +24,7 @@ function Home() {
         </div>
         <div className={styles.bgImageContainer}>
           <div className={styles.bgImage}>
-            <img src='./cover.jpg' width={5472 / 10} height={3648 / 10}/>
+            <img src={path('/cover.jpg')} width={5472 / 10} height={3648 / 10}/>
           </div>        
         </div>
       </section>
